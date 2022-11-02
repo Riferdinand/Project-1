@@ -1,0 +1,413 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ol{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 31px;
+}
+
+.ol1{
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 35px;
+}
+
+.li3{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.li1{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
+}
+
+.li2{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.pencarian{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.input2{
+    padding: 11px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+button{
+    float: right;
+    background-color: orange;
+    color: red;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    padding: 10px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px
+}
+
+.bahan{
+    margin-top: 0em;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Comic sans ms';
+    color: black;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+ul{
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 35px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-logo{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+a.tbl-biru{
+    background: #5B7DB1;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: #F10086;
+    text-decoration: none;
+}
+
+a.tbl-biru2{
+    background: #5B7DB1;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+a.tbl-biru2:hover{
+    background: #F10086;
+    text-decoration: none;
+}
+
+.logo a{
+    font-size: 35px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: red;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: solid;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Comic sans ms';
+    color: #006778;
+}
+
+.resep{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Comic sans ms';
+    color: #006778;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-family: 'Comic sans ms';
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #006778;
+    width: 100%;
+    line-height: 50px;
+}
+
+h3{
+    font-family: 'Comic sans ms';
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #006778;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-pink{
+    background: #F10086;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink2{
+    background: #770746;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: #5B7DB1;
+    text-decoration: none;
+}
+
+a.tbl-pink2:hover{
+    background: #324c74;
+    text-decoration: none;
+}
+
+pre{
+    text-align: left;
+    font-size: 17px;
+}
+
+.pre1{
+    padding-left: 0px;
+    font-size: 17px;
+}
+
+.input1{
+    margin-left: 30px;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: justify;
+}
+
+.p1{
+    margin: 10px 0px 10px 0px;
+    padding: 5px 0px 5px 0px;
+    text-align: justify;
+}
+
+#contact{
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+
+}
+
+#contact2{
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 35%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #006778;
+    width: 100%;
+    line-height: 50px;
+}
+
+.jicon{
+    padding-left: 15px;
+    display: flex;
+}
+
+.uicon{
+    width: 30px;
+    height: 30px;
+}
+
+.uimg{
+    width:300px;
+    height:250px;
+}
+
+.uimg2{
+    width:400px;
+    height:280px;
+}
+
+.uimg3{
+    width: 1100px;
+    height: 420px;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+.bb{
+    color: black;
+    text-decoration: none;
+}
+
+.b1{
+    color: #006778;
+    text-decoration: none;
+}
+
+.b1:hover{
+    color: #F10086;
+    text-decoration: none;
+}
+
+.social{
+    color: #F10086;
+    text-decoration: none;
+}
+
+.social:hover{
+    color: #006778;
+    text-decoration: none;
+}
+
+@media screen and (max-width:991.98px){
+    .menu-logo{
+        width: 90%;
+    }
+
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu{
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul{
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu li{
+        display: inline-block;
+        float: none;
+    }
+
+    section{
+        display: block;
+    }
+
+    section img{
+        display: block;
+    }
+}
